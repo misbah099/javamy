@@ -1,6 +1,6 @@
 /*Consider a Library Management System, where a user wants to find a book. If the
 book is present in Library (Hint: Use predefined array), then it will print the book.
-Otherwise it will throw an exception ìBookNotFoundExceptionî.  */
+Otherwise it will throw an exception ‚ÄúBookNotFoundException‚Äù.  */
 package oopjava.java;
 
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class Library {
 	}
 	catch(BooknotfoundException e)
 	{
-	System.out.print(e);
+	System.out.print(e.getMessage);
 	}
 	}
 }
