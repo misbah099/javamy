@@ -15,7 +15,7 @@ class Student_Test {
 		s.setMarks2(60);
 		s.setMarks3(70);
 		double p=b.per(s);
-		assertEquals(20,p);
+		assertEquals(59.66666666666667,p);
 	}
 
 }
