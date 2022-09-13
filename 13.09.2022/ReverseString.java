@@ -3,7 +3,7 @@ package Classfiles.java;
 
 import java.util.Scanner;
 
-public class ReverseString {
+public class plandromString {
 
 	public static void main(String[] args) {
 		String s1,temp,rev="";
