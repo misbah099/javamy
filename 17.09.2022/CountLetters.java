@@ -7,6 +7,12 @@ import java.io.IOException;
 
 public class CountLetters {
 	public static void main(String[] args) throws IOException {
+		FileOutputStream fout=new FileOutputStream("test.txt");
+		String str="this is changed sentence";
+		byte b[]=str.getBytes();
+
+		fout.write(b);
+		fout.close();
 		
 		FileInputStream fin=new FileInputStream("test.txt");
 		int i=0,count = 0;
